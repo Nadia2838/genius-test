@@ -1,0 +1,85 @@
+:root {
+    --color-brand:  #819B57;
+    --color-brand-dark: #465929;
+    --color-primary-dark: #31261A;
+    --color-primary-light:  #FAF4EA;
+    --color-secondary-dark: #A18268;
+    --color-secondary-ligt: #CFCFBC;
+
+
+}
+
+
+/* Base */
+body {
+    color: var(--color-primary-dark);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+/* Button */
+.button {
+    color:var(--color-primary-light);
+    background-color: var(--color-brand);
+    border: 2px solid var(--color-brand);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--color-brand-dark);
+    background-color: transparent;
+}
+
+
+/* Link */
+.link {
+    color: var(--color-primary-light);
+}
+
+.link:hover {
+    color: var(--color-brand);
+}
+
+/* Hero title */
+.hero-title {
+    color: var(--color-primary-light);
+}
+
+.hero-title .accent {
+    color: var(--color-brand);
+}
+
+/* Adventages */
+.adventages-list {
+    color: var(--color-primary-light);
+    background-color: var(--color-brand);
+}
+
+/* Section */
+.small-title {
+    color: var(--color-brand);
+}
+
+.small-title.uppercase {
+    text-transform: uppercase;
+}
+
+.section-title {
+    color: var(--color-primary-dark);
+}
+
+.section-title .accent {
+    color: var(--color-brand-dark);
+}
+
+.mini-totle-form {
+    color: var(--color-brand-dark);
+}
+
+.disclaimer {
+    color: var(--color-secondary-dark);
+}
